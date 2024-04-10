@@ -120,3 +120,25 @@ logo a {
   margin-left: -2px;
   margin-right: -2px;
 } 
+.empty-box3 { 
+  background-color: #000000;  /* Set the background color to desired value */ 
+  position: relative;
+  left: 78%;
+  height: 20px;
+  z-index: 9;
+  Width: 4px;
+  display: inline-block;
+  margin-left: -2px;
+  margin-right: -2px;
+} 
+.empty-box3-1 { 
+  background-color: #FFFFFF;  /* Set the background color to desired value */ 
+  position: relative;
+  left: 82%;
+  height: 20px;
+  z-index: 9;
+  Width: 12px;
+  display: inline-block;
+  margin-left: -2px;
+  margin-right: -2px;
+} 
