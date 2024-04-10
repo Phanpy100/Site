@@ -1,59 +1,147 @@
-<!DOCTYPE html>
-<html>
-   <head>
-      <title>Fanny's</title>
-      <link rel="stylesheet" href="mainstyle.css">
-      </head>
-   <body>
-      <header>
-          <headerline3>
-	  <div class="empty-box3"></div>
-	  <div class="empty-box3-1"></div>
-	  <div class="empty-box3"></div>
-	  </headerline3>
-	  <div class="logo"><h1>Fanny's</h1></div>
-	  <headerline2>
-	  <div class="empty-box2"></div>
-	  <div class="empty-box2-1"></div>
-	  <div class="empty-box2"></div>
-	  </headerline2>
-	  <headerline1>
-	  <div class="empty-box1"></div>
-	  <div class="empty-box1-1"></div>
-	  <div class="empty-box1"></div>
-	  </headerline1>
-      <div class="nav">
-        <a href="/index">Home</a>
-        <a href="/blog/main">Blog</a>
-        <a href="/art">Art</a>
-        <a href="/codingprojects/main">Modding & Gamedev</a>
-        <a href="/recipes/main">Recipes</a>
-        <a href="/royaltitle">Royal Claims</a>
-        <a href="/about">About</a>
-      </div>
-      </header>
-      <main>
-         <div class="row">
-            <div class=”post-text-box”>
-               <h1>Recent Blog Posts</h1>
-               <section>
-                  <h1>First Post</h1>
-                  <p>The first post’s content</p>
-               </section>
-            </div>
-         </div>
-      </main>
-      <footer>
-         <a href=https://discord.com/invite/ReDBBqF4>Discord</a>
-         <a href=https://phanpy100.newgrounds.com/>Newgrounds</a>
-         <a href=https://www.steamgriddb.com/profile/76561198211558364>SteamGridDB</a>
-         <a href=https://www.youtube.com/@phanpy1002>Youtube</a>
-         <a href=https://www.twitch.tv/phanpy100>Twitch</a>
-         <a href=https://mastodon.social/@Fanny100>Mastadon</a>
-         <a href=https://mesmerized.online/@PinkPrincessFanny>Mastadon(18+)</a>
-         <a href=https://phanpy100.itch.io/>Itch.io</a>
-         <a href=https://steamcommunity.com/id/Phanpy100/>Steam</a>
-         <a href=https://retroachievements.org/user/Phanpy100>RetroAchievements</a>
-      </footer>
-    </body>
-</html>
+/*header style*/
+
+.logo {
+   position: relative;
+   text-align: center;
+   width: 20%;             /* Set the desired width */   
+   left: 75%;
+   font-family: Orbitron;
+   background-color: #FFFFFF;
+   outline-style: solid;
+   outline-color: #000000;
+   outline-width: thick;
+   border-radius: 20px;
+   margin-bottom: -21px;
+   margin-top: -25.5px;
+   
+}
+
+/*navigation bar style*/
+.nav {
+   margin-top: -4px;
+   text-align: center;
+   position: relative;
+   padding: 30px;
+   background-color: #FFFFFF;
+   font-family: Orbitron;
+   outline-style: solid;
+   outline-color: #000000;
+   outline-width: thick;
+   border-radius: 25px;
+   
+}
+/*navigation bar button style*/
+.nav a {
+   color: #000000;
+   text-decoration: underline;
+   font-size: larger;
+}
+/*creating the two-column layout*/
+*{
+   box-sizing: border-box;
+}
+.row {
+   display: flex;
+   flex-wrap: wrap;
+}
+.post-text-box {
+   flex: 70%;
+   padding: 20px;
+}
+/*Footer style*/
+footer {
+   position: absolute;
+   bottom: 0%;
+   left: 25%;
+   right: 25%;
+   text-align: center; 
+   padding: 5px;
+   word-spacing: 15px;
+   background-color: #FFFFFF;
+   font-family: Orbitron;
+   outline-style: solid;
+   outline-color: #000000;
+   outline-width: thick;
+   border-radius: 25px;
+
+}
+footer a {
+   color: #000000;
+   text-decoration: underline;
+   font-size: smaller;
+}
+
+logo a {
+   color: #000000;
+   text-decoration: underline overline;
+   font-size: larger;
+}
+
+.empty-box1 { 
+  background-color: #000000;  /* Set the background color to desired value */ 
+  position: relative;
+  left: 79%;
+  height: 20px;
+  z-index: 9;
+  Width: 4px;
+  display: inline-block;
+  margin-left: -2px;
+  margin-right: -2px;
+} 
+.empty-box1-1 { 
+  background-color: #FFFFFF;  /* Set the background color to desired value */ 
+  position: relative;
+  left: 79%;
+  height: 20px;
+  z-index: 9;
+  Width: 16px;
+  display: inline-block;
+  margin-left: -2px;
+  margin-right: -2px;
+} 
+.empty-box2 { 
+  background-color: #000000;  /* Set the background color to desired value */ 
+  position: relative;
+  left: 78%;
+  height: 20px;
+  z-index: 9;
+  Width: 4px;
+  display: inline-block;
+  margin-left: -2px;
+  margin-right: -2px;
+} 
+.empty-box2-1 { 
+  background-color: #FFFFFF;  /* Set the background color to desired value */ 
+  position: relative;
+  left: 78%;
+  height: 20px;
+  z-index: 9;
+  Width: 6px;
+  display: inline-block;
+  margin-left: -2px;
+  margin-right: -2px;
+} 
+.empty-box3 { 
+  background-color: #000000;  /* Set the background color to desired value */ 
+  position: relative;
+  left: 88%;
+  height: 20px;
+  z-index: 9;
+  Width: 4px;
+  display: inline-block;
+  margin-left: -2px;
+  margin-right: -2px;
+  margin-top: -40px;
+} 
+.empty-box3-1 { 
+  background-color: #FFFFFF;  /* Set the background color to desired value */ 
+  position: relative;
+  left: 88%;
+  height: 20px;
+  z-index: 9;
+  Width: 12px;
+  display: inline-block;
+  margin-left: -2px;
+  margin-right: -2px;
+  margin-top: -40px;
+} 
