@@ -1,13 +1,39 @@
 /*header style*/
-header {
-   text-align: center; 
-   padding: 20px;
-}
-/*navigation menu style*/
-nav {
+
+.logo {
+   position: relative;
    text-align: center;
-   word-spacing: 10px;
-   Padding: 10px;
+   width: 20%;             /* Set the desired width */   
+   left: 75%;
+   font-family: Orbitron;
+   background-color: #FFFFFF;
+   outline-style: solid;
+   outline-color: #000000;
+   outline-width: thick;
+   border-radius: 20px;
+   margin-bottom: -21px;
+   
+}
+
+/*navigation bar style*/
+.nav {
+   margin-top: -4px;
+   text-align: center;
+   position: relative;
+   padding: 30px;
+   background-color: #FFFFFF;
+   font-family: Orbitron;
+   outline-style: solid;
+   outline-color: #000000;
+   outline-width: thick;
+   border-radius: 25px;
+   
+}
+/*navigation bar button style*/
+.nav a {
+   color: #000000;
+   text-decoration: underline;
+   font-size: larger;
 }
 /*creating the two-column layout*/
 *{
@@ -21,17 +47,76 @@ nav {
    flex: 70%;
    padding: 20px;
 }
-.profile {
-   flex: 70%;
-   padding: 20px;
+/*Footer style*/
+footer {
+   position: absolute;
+   bottom: 0%;
+   left: 25%;
+   right: 25%;
+   text-align: center; 
+   padding: 5px;
+   word-spacing: 15px;
+   background-color: #FFFFFF;
+   font-family: Orbitron;
+   outline-style: solid;
+   outline-color: #000000;
+   outline-width: thick;
+   border-radius: 25px;
+
 }
-/*profile image and heading style*/
-.profile img {
-   width: 120px;
-   display: block;
-   margin-left: 0;
-   margin-right: 0;
+footer a {
+   color: #000000;
+   text-decoration: underline;
+   font-size: smaller;
 }
-.profile h1 {
-   text-align: center;
+
+logo a {
+   color: #000000;
+   text-decoration: underline overline;
+   font-size: larger;
 }
+
+.empty-box1 { 
+  background-color: #000000;  /* Set the background color to desired value */ 
+  position: relative;
+  left: 79%;
+  height: 20px;
+  z-index: 9;
+  Width: 4px;
+  display: inline-block;
+  margin-left: -2px;
+  margin-right: -2px;
+} 
+.empty-box1-1 { 
+  background-color: #FFFFFF;  /* Set the background color to desired value */ 
+  position: relative;
+  left: 79%;
+  height: 20px;
+  z-index: 9;
+  Width: 16px;
+  display: inline-block;
+  margin-left: -2px;
+  margin-right: -2px;
+} 
+.empty-box2 { 
+  background-color: #000000;  /* Set the background color to desired value */ 
+  position: relative;
+  left: 78%;
+  height: 20px;
+  z-index: 9;
+  Width: 4px;
+  display: inline-block;
+  margin-left: -2px;
+  margin-right: -2px;
+} 
+.empty-box2-1 { 
+  background-color: #FFFFFF;  /* Set the background color to desired value */ 
+  position: relative;
+  left: 78%;
+  height: 20px;
+  z-index: 9;
+  Width: 6px;
+  display: inline-block;
+  margin-left: -2px;
+  margin-right: -2px;
+} 
