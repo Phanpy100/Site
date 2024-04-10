@@ -124,24 +124,24 @@ logo a {
 .empty-box3 { 
   background-color: #000000;  /* Set the background color to desired value */ 
   position: relative;
-  left: 88%;
+  left: 90%;
   height: 20px;
   z-index: 9;
   Width: 4px;
   display: inline-block;
   margin-left: -2px;
   margin-right: -2px;
-  margin-top: -40px;
+  margin-top: -28px;
 } 
 .empty-box3-1 { 
   background-color: #FFFFFF;  /* Set the background color to desired value */ 
   position: relative;
-  left: 88%;
+  left: 90%;
   height: 20px;
   z-index: 9;
   Width: 12px;
   display: inline-block;
   margin-left: -2px;
   margin-right: -2px;
-  margin-top: -40px;
+  margin-top: -28px;
 } 
