@@ -1,5 +1,11 @@
 /*header style*/
 
+body {
+  background: url(images/Mac-10.png), url(images/grunge.gif);
+  background-size: 100%;
+  background-blend-mode: multiply;
+}
+
 .logo {
    position: relative;
    text-align: center;
